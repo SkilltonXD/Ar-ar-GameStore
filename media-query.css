@@ -1,0 +1,52 @@
+@media screen and (max-width: 700px){
+    a {
+        display: none;
+    }
+    .logo {
+        width: 40px; height: 40px;
+        cursor: pointer;
+        display: inline-flex;
+    }
+    .hlink {
+        display: inline-grid;
+        margin-right: 6%;
+        font-size: 140%;
+        column-gap: 16%;
+        float: right;
+        margin-top: 18px;
+        color: #eeecfb;
+        grid-template-columns: 40% 50% 40%;
+    }
+    .webname {
+        font-size: 150%;
+    }
+}
+@media screen and (max-width: 950px) {
+    .webname {
+        margin: 14px 0% 0% 10%;
+        font-size: 190%;
+    }
+}
+@media screen and (max-width: 550px){
+    .webname {
+        margin: 14px 0% 0% 6%;
+        font-size: 180%;
+    }
+}
+@media screen and (max-width: 480px){
+    .webname {
+        font-size: 150%;
+        margin-top: 20px;
+    }
+    .logo {
+        width: 32px; height: 32px;
+        margin-top: 5px;
+    }
+    .main {
+        height: auto;
+        gap: 20px;
+    }
+    .games {
+        width: 100%; height: 40vh;
+    }
+}
